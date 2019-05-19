@@ -1094,10 +1094,20 @@ PrefabInstance:
       propertyPath: casingPrefab
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 7983382117330394427, guid: 3f14557f1dfbe4a4dbc1c71ad3283bc3,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 7983382115627650253, guid: 3f14557f1dfbe4a4dbc1c71ad3283bc3,
         type: 3}
       propertyPath: casingPrefab
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7983382115627650253, guid: 3f14557f1dfbe4a4dbc1c71ad3283bc3,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3f14557f1dfbe4a4dbc1c71ad3283bc3, type: 3}
@@ -5324,6 +5334,31 @@ PrefabInstance:
         type: 3}
       propertyPath: m_CollisionDetection
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2669908935435241187, guid: bff09fee017af9e46bc0d0d72b452d72,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4872375761971907478, guid: bff09fee017af9e46bc0d0d72b452d72,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4929856235283573621, guid: bff09fee017af9e46bc0d0d72b452d72,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3331879854301094679, guid: bff09fee017af9e46bc0d0d72b452d72,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7111369095064484789, guid: bff09fee017af9e46bc0d0d72b452d72,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bff09fee017af9e46bc0d0d72b452d72, type: 3}
@@ -53964,11 +53999,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1269268520}
     m_Modifications:
-    - target: {fileID: 4504864319150342380, guid: 95172bb5fed4b56448cdbcf2ba84ba53,
-        type: 3}
-      propertyPath: m_Name
-      value: M4_Carbine
-      objectReference: {fileID: 0}
     - target: {fileID: 3542799518189856254, guid: 95172bb5fed4b56448cdbcf2ba84ba53,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -54023,6 +54053,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 95.368004
+      objectReference: {fileID: 0}
+    - target: {fileID: 4504864319150342380, guid: 95172bb5fed4b56448cdbcf2ba84ba53,
+        type: 3}
+      propertyPath: m_Name
+      value: M4_Carbine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6677129383965314106, guid: 95172bb5fed4b56448cdbcf2ba84ba53,
+        type: 3}
+      propertyPath: autoFireRate
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 95172bb5fed4b56448cdbcf2ba84ba53, type: 3}

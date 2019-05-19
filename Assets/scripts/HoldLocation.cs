@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 
 public enum HoldLocation {
-    none,
+    None,
     Left,
     Right,
     Head,
-    ammo
+    Ammo
 }

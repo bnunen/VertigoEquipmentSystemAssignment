@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Gun : HoldibleItem{
     [SerializeField]
-    private float AutoFireRate;
+    private float autoFireRate;
 
     private bool fireing;
 
@@ -43,7 +43,7 @@ public class Gun : HoldibleItem{
     private IEnumerator AutoFire() {
         float lastShotTime = 0;
         while (fireing) {
-            if (lastShotTime + (1 / AutoFireRate) <= Time.time) {
+            if (lastShotTime + (1 / autoFireRate) <= Time.time) {
                 lastShotTime = Time.time;
                 Fire();
             }

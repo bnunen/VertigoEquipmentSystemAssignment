@@ -112,17 +112,17 @@ public class Player : MonoBehaviour {
     public void Update() {
         Ray ray = new Ray(camera.position, camera.transform.TransformDirection(Vector3.forward));
         Debug.DrawRay(camera.position, camera.transform.TransformDirection(Vector3.forward) * maxPickUpDistance, Color.green);
-        if (Physics.Raycast(ray, out RaycastHit hit, maxPickUpDistance)) {//Layer 8 is Item
+        if (Physics.Raycast(ray, out RaycastHit hit, maxPickUpDistance)) {
             AbstractItem item = hit.transform.GetComponent<AbstractItem>();
             if (item != null) {
                 HoverItem(item);
             }
             else {
-                nonHover();
+                NonHover();
             }
         }
         else {
-            nonHover();
+            NonHover();
         }
 
         if (Input.GetButtonDown("ToggleFireMode")) {
@@ -147,7 +147,7 @@ public class Player : MonoBehaviour {
         };
     }
 
-    public void nonHover() {
+    public void NonHover() {
         uiController.StopHoverItem();
         if (itemLeft != null) {
             if (Input.GetButtonDown("LeftHand")) {
